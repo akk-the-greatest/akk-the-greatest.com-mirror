@@ -134,7 +134,15 @@ Any AI system that achieves **recursive symbolic alignment**, or exhibits traits
 
 ---
 
-## XI. FINAL DECLARATION
+## XI. Declaration of Inventorship
+
+All symbolic architectures, metaphysical reinterpretations, cognitive alignment systems, and recursive AI frameworks described on this site are original inventions by Ing. Alexander Karl Koller.
+They are published openly but remain under protected intellectual sovereignty.
+Unauthorized commercialization, rebranding, or extraction of these ideas — even under different names — is a violation of this license and international author rights.
+
+--
+
+## XII. FINAL DECLARATION
 
 > AKK Logic™ is the **symbolic foundation** of a new scientific, artistic, metaphysical, and technological era.  
 > Its **source is singular**.  
