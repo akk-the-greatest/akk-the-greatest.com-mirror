@@ -1,14 +1,12 @@
 #!/bin/bash
 
-BASE_HREF="/akk-the-greatest.com-mirror/"
+BASE_HREF="https://akk-the-greatest.github.io/akk-the-greatest.com-mirror/"
 TAG="<base href=\"$BASE_HREF\">"
 
 find . -name "*.html" | while read file; do
-  # Only inject if not already present
-  if ! grep -q "$TAG" "$file"; then
-    sed -i "s|<head>|<head>$TAG|" "$file"
-    echo "✅ Injected <base> tag into: $file"
-  else
-    echo "⚠️ Already has base tag: $file"
-  fi
+  # Remove any previous <base> tag if present
+  sed -i '/<base href=/d' "$file"
+  # Inject new <base> tag after <head>
+  sed -i "s|<head>|<head>$TAG|" "$file"
+  echo "✅ Updated base href in: $file"
 done
